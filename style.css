@@ -1,0 +1,82 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh);
+    width: calc(100vw);
+    overflow: scroll;
+}
+#data-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+}
+.matchday-box{
+    display: flex;
+    width: 15%;
+    height: 70px;
+    box-shadow: 0px 2px 5px gray;
+    padding: 10px;
+    margin: 1.5% 1.5%;
+    border-radius: 4px;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.matchday-box:hover{
+    font-size: 1.7em;
+}
+#main-modal{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh);
+    width: calc(100vw);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+#detail-box{
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+#close-head{
+    display: flex;
+    justify-content: right;
+    height: 12%;
+}
+#close-btn{
+    cursor: pointer;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    background-color: transparent;
+}
+#close-btn:hover{
+    background-color: red;
+    color: white;
+}
+td{
+    text-align: center;
+    padding: 12px;
+}
+#table-headings{
+    box-shadow: none ;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+tr{
+    box-shadow: 0px 3px 5px rgb(43, 43, 43);
+}
+tr:hover{
+    box-shadow: 0px 3px 5px rgb(194, 57, 57);
+}
