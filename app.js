@@ -4372,7 +4372,7 @@ var rounds = [ {
 var getMainDiv = document.getElementById("main-container");
 
 var title = document.createElement("h1");
-title.appendChild(document.createTextNode("Premier League 2015/16"));
+title.appendChild(document.createTextNode("Soccer Premier league"));
 getMainDiv.appendChild(title);
 
 var dataBody = document.createElement("div");
